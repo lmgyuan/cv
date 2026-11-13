@@ -27,10 +27,11 @@ jobs:
         with:
           ref: main
           persist-credentials: false
-      - name: Package only the homepage and PDF
+      - name: Package both CV versions
         run: |
-          mkdir -p _site
-          cp index.html cv.pdf _site/
+          mkdir -p _site/3d
+          cp index.html cv.pdf cv-3d.pdf _site/
+          cp 3d/index.html _site/3d/
       - name: Upload website
         uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:

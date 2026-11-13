@@ -1,6 +1,6 @@
 # Yuan Yuan — CV
 
-This repository hosts my CV as a PDF using GitHub Pages.
+This repository hosts my CVs as PDFs using GitHub Pages.
 
 The homepage opens `cv.pdf` directly. If automatic navigation is unavailable, it provides a link to the PDF.
 
@@ -16,4 +16,4 @@ As a manual fallback, replace `cv.pdf` with a newly exported PDF, then commit an
 
 The public website is [lmgyuan.github.io/cv](https://lmgyuan.github.io/cv/).
 
-In **Settings → Pages**, the source is **GitHub Actions**. The publishing workflow packages only `index.html` and `cv.pdf`.
+In **Settings → Pages**, the source is **GitHub Actions**. The publishing workflow packages both CV PDFs and their website entry points. The Generative 3D / World Model / Robotics version is at [lmgyuan.github.io/cv/3d](https://lmgyuan.github.io/cv/3d/).
