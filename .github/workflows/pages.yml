@@ -31,6 +31,7 @@ jobs:
         run: |
           mkdir -p _site/3d _site/CV-general
           cp index.html cv.pdf cv-3d.pdf CV-general.pdf _site/
+          cp cv.pdf _site/Yuan_Yuan_CV.pdf
           cp 3d/index.html _site/3d/
           cp CV-general/index.html _site/CV-general/
       - name: Upload website
